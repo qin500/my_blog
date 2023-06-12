@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>在路上</title>
+    <style>
+        .icon {
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+        }
+    </style>
+    <link href="//at.alicdn.com/t/font_2113112_ayxk7kfe5d6.css" rel="stylesheet" type="text/css"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+<header>
+    <div class="tophead">
+        <div class="wp">
+            <div class="welcome">您好,朋友 现在是 <span class="time"></span></div>
+            <div class="access">
+                <a class="login" href="#">登录</a>
+            </div>
+        </div>
+
+    </div>
+    <div class="wp">
+        <div class="logo">
+            <a href="/">在路上个人博客</a>
+        </div>
+        <ul id="topmenu">
+            <li class="item active"><a href="/">网站首页</a></li>
+            <li class="item"><a href="/">文章列表</a></li>
+            <li class="item"><a href="/">在线工具</a></li>
+            <li class="item"><a href="/">给我留言</a></li>
+            <li class="item"><a href="/">关于我</a></li>
+        </ul>
+    </div>
+
+</header>
+<div id="search">
+    <div class="search-warp">
+        <input type="text" name="text" class="text" placeholder="请输入要查询的关键字">
+        <button class="button">搜索</button>
+    </div>
+</div>
+<div class="container wp">
+    <main>
+        <div class="artList">
+            <h2 class="title">最新文章</h2>
+            <ul class="newArticle">
+                <li class="item">
+                    <a target="_blank" href="#">
+                        <i>
+                            <img src="images/img.png" alt="laravel分页和安装语言包">
+                        </i>
+                        <h2>laravel分页和安装语言包</h2>
+                    </a>
+                    <p>
+                        分页
+                        自定义分页&nbsp;
+                        $posts=Post::where(['uid'=&gt;$blog_user-&gt;id])-&gt;paginate(20);
+                        如果你想要把当前所有的请求查询参数添加到分页链接，你可以使用&nbsp;withQueryString&nbsp;方法：
+                        $users = User::paginate(15)-&gt;withQueryString();
+                        展示分页
+                    </p>
+                    <div class="article-lists-detail">
+                        <span class="date"><i class="iconfont icon-date1"></i>2021-12-21</span>
+                        <span class="date"><i class="iconfont icon-eye"></i>521</span>
+                        <span class="date"><i class="iconfont icon-folder"></i><a href="#">PHP</a></span>
+                    </div>
+                    <a target="_blank" href="#" class="article-lists-view">
+                        阅读更多
+                    </a>
+                </li>
+                <li class="item">
+                    <a target="_blank" href="#">
+                        <i>
+                            <img src="images/img.png" alt="laravel分页和安装语言包">
+                        </i>
+                        <h2>laravel分页和安装语言包</h2>
+                    </a>
+                    <p>
+                        分页
+                        自定义分页&nbsp;
+                        $posts=Post::where(['uid'=&gt;$blog_user-&gt;id])-&gt;paginate(20);
+                        如果你想要把当前所有的请求查询参数添加到分页链接，你可以使用&nbsp;withQueryString&nbsp;方法：
+                        $users = User::paginate(15)-&gt;withQueryString();
+                        展示分页
+                    </p>
+                    <div class="article-lists-detail">
+                        <span class="date"><i class="iconfont icon-date1"></i>2021-12-21</span>
+                        <span class="date"><i class="iconfont icon-eye"></i>521</span>
+                        <span class="date"><i class="iconfont icon-folder"></i><a href="#">PHP</a></span>
+                    </div>
+                    <a target="_blank" href="#" class="article-lists-view">
+                        阅读更多
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div id="paging" class="paging">
+            <div class="paging-warp">
+                <p class="total">96条</p>
+                <ul class="list">
+                    <li class="first">&lt;</li>
+                    <li >1</li>
+                    <li >2</li>
+                    <li >3</li>
+                    <li >4</li>
+                    <li class="middle">...</li>
+                    <li class="last">&gt;</li>
+                </ul>
+            </div>
+        </div>
+
+    </main>
+    <aside>
+        <div class="content-right">
+            <div class="site-author">
+                <div class="author-photo">
+                    <a href="#"><img src="images/img.png" alt=""></a>
+                </div>
+                <p class="author-name">在路上</p>
+                <p class="author-desc">要有遥不可及的梦想,也要有脚踏实地的本事</p>
+                <div class="author-more">
+                    <dl class="data-count">
+                        <dt>
+                            文章
+                        </dt>
+                        <dd>95</dd>
+                    </dl>
+                    <dl class="data-count">
+                        <dt>
+                            标签
+                        </dt>
+                        <dd>33</dd>
+                    </dl>
+                    <dl class="data-count">
+                        <dt>
+                            分类
+                        </dt>
+                        <dd>18</dd>
+                    </dl>
+
+                </div>
+            </div>
+            <div class="widget">
+                <h3 class="title">
+                    最新文章
+                </h3>
+                <div class="cont">
+                    <ul class="newarts">
+                        <li>
+                            <a href="https://www.qin500.com/article/1112">laravel分页和安装语言包</a>
+                        </li>
+                        <li>
+                            <a href="https://www.qin500.com/article/1111">laravel利用工厂函数快速大量测试数据</a>
+                        </li>
+                        <li>
+                            <a href="https://www.qin500.com/article/1110">Vue3.0的新语法糖-script setup</a>
+                        </li>
+                        <li>
+                            <a href="https://www.qin500.com/article/1109">js实现摄像头拍照录像预览</a>
+                        </li>
+                        <li>
+                            <a href="https://www.qin500.com/article/1108">php操作利用内置函数写入和读取csv文件</a>
+                        </li>
+                        <li>
+                            <a href="https://www.qin500.com/article/1107">js在线播放视频blob方式</a>
+                        </li>
+                        <li>
+                            <a href="https://www.qin500.com/article/1106">webstorm调试当前文件</a>
+                        </li>
+                        <li>
+                            <a href="https://www.qin500.com/article/1105">ubuntu以root方式登录系统</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="widget">
+                <h3 class="title">
+                    标签云
+                </h3>
+                <div class="cont">
+                    <div class="tagcloud clx">
+                        <a href="https://www.qin500.com/tagname?name=php">php</a>
+                        <a href="https://www.qin500.com/tagname?name=js">js</a>
+                        <a href="https://www.qin500.com/tagname?name=linux">linux</a>
+                        <a href="https://www.qin500.com/tagname?name=%E6%9C%8D%E5%8A%A1%E5%99%A8">服务器</a>
+                        <a href="https://www.qin500.com/tagname?name=php%E5%87%BD%E6%95%B0">php函数</a>
+                        <a href="https://www.qin500.com/tagname?name=jq">jq</a>
+                        <a href="https://www.qin500.com/tagname?name=mysql">mysql</a>
+                        <a href="https://www.qin500.com/tagname?name=php%E5%85%B3%E9%94%AE%E5%AD%97">php关键字</a>
+                        <a href="https://www.qin500.com/tagname?name=%E5%B8%B8%E9%87%8F">常量</a>
+                        <a href="https://www.qin500.com/tagname?name=%E6%8A%93%E5%8C%85">抓包</a>
+                        <a href="https://www.qin500.com/tagname?name=%E5%AE%89%E5%85%A8">安全</a>
+                        <a href="https://www.qin500.com/tagname?name=centos">centos</a>
+                        <a href="https://www.qin500.com/tagname?name=webpack">webpack</a>
+                        <a href="https://www.qin500.com/tagname?name=%E6%89%93%E5%8C%85">打包</a>
+                        <a href="https://www.qin500.com/tagname?name=vue">vue</a>
+                        <a href="https://www.qin500.com/tagname?name=http">http</a>
+                        <a href="https://www.qin500.com/tagname?name=pdo">pdo</a>
+                        <a href="https://www.qin500.com/tagname?name=%E6%95%B0%E6%8D%AE%E5%BA%93">数据库</a>
+                        <a href="https://www.qin500.com/tagname?name=%E6%8E%A5%E5%8F%A3">接口</a>
+                        <a href="https://www.qin500.com/tagname?name=cmd">cmd</a>
+                        <a href="https://www.qin500.com/tagname?name=postman">postman</a>
+                        <a href="https://www.qin500.com/tagname?name=%E6%B5%8B%E8%AF%95">测试</a>
+                        <a href="https://www.qin500.com/tagname?name=%E7%BC%96%E8%BE%91%E5%99%A8">编辑器</a>
+                        <a href="https://www.qin500.com/tagname?name=%E6%B3%A8%E5%86%8C%E8%A1%A8">注册表</a>
+                        <a href="https://www.qin500.com/tagname?name=laravel">laravel</a>
+                        <a href="https://www.qin500.com/tagname?name=%E5%8F%98%E9%87%8F">变量</a>
+                        <a href="https://www.qin500.com/tagname?name=curl">curl</a>
+                        <a href="https://www.qin500.com/tagname?name=%E4%B8%8A%E4%BC%A0">上传</a>
+                        <a href="https://www.qin500.com/tagname?name=%E6%95%B0%E7%BB%84">数组</a>
+                        <a href="https://www.qin500.com/tagname?name=webstorm">webstorm</a>
+                        <a href="https://www.qin500.com/tagname?name=video">video</a>
+                        <a href="https://www.qin500.com/tagname?name=%E6%8B%8D%E7%85%A7">拍照</a>
+                        <a href="https://www.qin500.com/tagname?name=%E5%88%86%E9%A1%B5">分页</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </aside>
+
+</div>
+<footer>
+    <div class="ftnav wp">
+        <a href="#">网站地图</a>
+        <a href="#">标签集合</a>
+        <a href="#">所有文章</a>
+        <a href="#">在线工具</a>
+        <a href="#">关于我们</a>
+    </div>
+    <div class="ft-desc wp ">
+        <p>在路上个人博客网站 版权所有2023</p>
+        <p>程序设计:刘崇胡</p>
+        <p>Copyright © www.qin500.com All Rights Reserved.</p>
+        <p>服务器计算耗时: <span class="special">0.2118821144</span> (s)</p>
+    </div>
+</footer>
+<div class="fix-evident">
+    <span class="item">
+        <a data-scrolltop>
+            <i class="iconfont icon-zhiding"></i>
+        </a>
+    </span>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>

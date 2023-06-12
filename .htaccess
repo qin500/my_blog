@@ -1,0 +1,16 @@
+RewriteEngine On
+RewriteBase /
+
+# 根域名重定向
+RewriteRule ^$ index.php [NC,L]
+
+# 全部重定向到index.php
+RewriteRule ^([^.]+)$ index.php?$1 [NC,L]
+
+# 404页面重定向到index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^.*$ /404 [NC,L]
+
+# 403禁止访问状态重定向到/403
+RewriteCond %{REQUEST_URI} ^/lib/
+RewriteRule .* /403 [R=301,L]
